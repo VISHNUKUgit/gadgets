@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./images/gadgets.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.left h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.left h1 span {
+    color: red;
+    font-weight: 500;
+}
+
+.left h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xxx-large;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+}
+#active {
+    border-bottom: 3px solid red;
+}
+#active:hover{
+    border-bottom: 3px solid red;
+}
+ul:hover #active{
+    border-bottom: 3px solid rgba(0, 0, 0,.0);
+    
+
+}
+.items:hover{
+    border-bottom: 3px solid red;
+    
+}
+
+
+.search {
+    width: 200px;
+    height: 26px;
+    background-color: red;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+}
+
+.search input {
+    border: none;
+    padding: 5px;
+}
+
+.search i {
+    padding-left: 5px;
+    cursor: pointer;
+}
+.banner_heading{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.banner_contents{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.inputs{
+    margin-top: 50px;
+    background-color: black;
+    
+}
+.inputs span{
+    font-family: 'Oswald', sans-serif;
+    color: whitesmoke;
+    margin: 0px 14px;
+    cursor: pointer;
+}
+.inputs input{
+    height: 31px;
+    padding: 5px;
+    border: none;
+
+}
+.main{
+    margin-top: 150px;
+    background-color: rgb(250, 238, 238);
+}
+.main_heading{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.container{
+    margin: 0px 50px;
+}
+.pro_head{
+    margin-top: 10px;
+}
+.container_box{
+display: flex;
+margin-top: 5px;
+}
+.card{
+    background-color: white;
+    width: 19%;
+    height: 300px;
+    border-radius: 2px;
+    margin: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+}
+.money{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_img{
+    width: 75%;
+    margin-top: 15px;
+    height: 170px;
+}
+.card_imgp{
+    width: 75%;
+    margin-top: 15px;
+    height: 108px;
+    margin-bottom: 64px;
+}
+
+.o-price{
+    margin-top: 8px;
+    color: rgb(115, 113, 113);
+    text-decoration: line-through;
+    display: inline;
+}
+.card span{
+    color: rgb(5, 156, 5);
+    padding-left: 2px;
+    font-weight: bolder;
+    
+}
+.sony{
+    display: flex;
+}
+.main_heading{
+    margin: 30px 0px;
+}
+.sony_imgs{
+    width: 50%;
+}
+.sony_img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.hp_img{
+    margin-top: 119px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.sony_details{
+    width: 50%;
+}
+.sony_de_al{
+    padding: 11px 58px;
+}
+.sony_text1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 31px;
+}
+.pera_h{
+    color: rgb(122, 121, 119);
+}
+.pera{
+    font-family: 'Oswald', sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.sony_icons{
+    display: flex;
+}
+.sony_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+.sony_icon span{
+    margin-top: 21px;
+    text-align: center;
+}
+.video{
+    margin: 30px 58px;
+
+}
+.video iframe{
+    width: 100%;
+    height: 500px;
+}
+.videol{
+    margin: 30px  58px 0px 58px;
+}
+.hp_button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.content_box{
+    margin: 0px 74px;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 0px;
+}
+.footer{
+    font-family: 'Oswald', sans-serif;
+    background-color: #202020;
+    color: white;
+}
